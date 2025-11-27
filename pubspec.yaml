@@ -1,5 +1,5 @@
-name: ai_chat_flutter
-description: A new Flutter project.
+name: ai_code_box
+description: A powerful workspace for multi-agent AI collaboration and project management.
 publish_to: 'none'
 version: 1.0.0+1
 
@@ -13,11 +13,25 @@ dependencies:
   dio: ^5.4.0
   flutter_dotenv: ^5.1.0
   cupertino_icons: ^1.0.2
+  # Database & Vector Search
+  objectbox: ^5.0.0
+  objectbox_flutter_libs: ^5.0.0
+  # AI & Orchestration
+  langchain: ^0.8.0
+  langchain_openai: ^0.8.0
+  # Utilities
+  uuid: ^4.3.3
+  syncfusion_flutter_pdf: ^24.1.41 # or latest
+  path_provider: ^2.1.2
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
   flutter_lints: ^2.0.0
+  build_runner: ^2.4.8
+  objectbox_generator: ^5.0.0
+  source_gen: ^4.1.0
+  analyzer: ^8.4.1
 
 flutter:
   uses-material-design: true

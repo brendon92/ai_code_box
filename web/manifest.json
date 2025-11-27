@@ -1,11 +1,11 @@
 {
-    "name": "ai_chat_flutter",
-    "short_name": "ai_chat_flutter",
+    "name": "ai_code_box",
+    "short_name": "ai_code_box",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",
     "theme_color": "#0175C2",
-    "description": "A new Flutter project.",
+    "description": "A powerful workspace for multi-agent AI collaboration.",
     "orientation": "portrait-primary",
     "prefer_related_applications": false,
     "icons": [
